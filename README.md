@@ -27,10 +27,13 @@ Parameter:
 Ouput:
  a string "11011"  etc...
 ---------------------------
-ex: 
-  get byte3 bit 2~5  => common.func.get_data_from_byte(byte =byte3,  low_bit =2, high_bit =5)
-  get byte3 bit 7  => common.func.get_data_from_byte(byte =byte3,  low_bit =7, high_bit =7)
-  get byte3 bit 0~7  => common.func.get_data_from_byte(byte =byte3,  low_bit =0, high_bit =7)
+ex:   
+  get byte3 bit 2 \- 5.  
+      common.func.get_data_from_byte(byte =byte3,  low_bit =2, high_bit =5)  
+  get byte3 bit 7.  
+      common.func.get_data_from_byte(byte =byte3,  low_bit =7, high_bit =7)  
+  get byte3 bit 0 \- 7.  
+      common.func.get_data_from_byte(byte =byte3,  low_bit =0, high_bit =7)  
   
 
 P.s.
