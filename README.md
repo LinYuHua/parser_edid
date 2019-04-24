@@ -1,4 +1,4 @@
-#rser_edid
+#Parser_edid
 Read EDID the first 128bytes and shows on the screen.
 
 ---------------------------
